@@ -9,3 +9,9 @@
 
 https://www.terlici.com/2014/08/25/best-practices-express-structure.html  
 https://eggjs.org/  
+
+windows上运行
+SET DEBUG=express-async-startkit:* & npm start
+
+linux上运行
+DEBUG=express-async-startkit:*  npm start
