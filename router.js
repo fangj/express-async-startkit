@@ -1,7 +1,7 @@
 'use strict';
 
-var index = require('./routes/index');
-var users = require('./routes/users');
+var index = require('./controller/index');
+var users = require('./controller/users');
 
 module.exports = app => {
 	app.use('/', index);
